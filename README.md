@@ -8,8 +8,13 @@ The data set used is the "Human Activity Recognition Using Smartphones Dataset",
 
 ## Steps to Reproduce
 1. Download or clone this repository to your local machine (remember to download the dataset folder as well).
-2. In R, use the `setwd(dir)` command to set the working directory to the directory you downloaded or cloned the repository to.
+2. In R, use the `setwd(dir)` command to set the working directory to point to your local download or clone of the repository.
 3. Run the `run_analysis.R` script by using the R command `source(run_analysis.R)`.
 
 ## Output
 The `run_analysis.R` script writes its output to the file `study_output.txt`, a tab separated text file containing wide tidy data. Please refer to the file `CodeBook.md` for a description of the data in the output.
+The output data can be read back into R with the command:
+```R
+data <- read.table("study_output.txt", header=TRUE)
+view(data)
+```
