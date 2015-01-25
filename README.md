@@ -21,6 +21,7 @@ view(data)
 
 ## Script Description
 The script performs the following work on the input data set:
+
 1. Load the activity name labels from `activity_labels.txt` and clean them up by removing underscores and capitalizing each word in the label. This data is held in the `activity.labels` data frame.
 2. Load the measurement names (called "features" in the data set) from `features.txt` and make them into unique, R-compatible names. This data is held in the `x.colnames` character vector.
 3. Load the Training set data from the file `x_train.txt` and name the columns using the names in the `x.colname` vector. This data is held in the `x.train` data frame.
