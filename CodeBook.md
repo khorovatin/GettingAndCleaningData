@@ -1,3 +1,4 @@
+<pre>
 DATA DICTIONARY - GETTING AND CLEANING DATA COURSE PROJECT
 
 activity
@@ -277,3 +278,4 @@ averageTimeGravityAccelerationStandardDeviationY
 averageTimeGravityAccelerationStandardDeviationZ
 	Average of the standard deviation of gravity acceleration in the time domain in the Z direction
 			-1.0..1.0 .Floating point normalized acceleration
+</pre>
