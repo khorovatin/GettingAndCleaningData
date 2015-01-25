@@ -4,7 +4,7 @@ My repository for the course project for the "[Getting and Cleaning Data](https:
 ## Project Parameters
 From the project description on Coursera: "The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis."
 
-The data set used is the "Human Activity Recognition Using Smartphones Dataset", version 1.0, available from the following website:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. The dataset has been extracted from a Zip file provided by the course authors and downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, and is included in this repository in the `UCI HAR Dataset` folder.
+The data set used is the "Human Activity Recognition Using Smartphones Dataset", version 1.0, available from the following website:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. The dataset has been extracted from a Zip file provided by the course authors, which can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. The extracted files are included in this repository in the `UCI HAR Dataset` folder.
 
 ## Steps to Reproduce
 1. Download or clone this repository to your local machine (remember to download the dataset folder as well).
